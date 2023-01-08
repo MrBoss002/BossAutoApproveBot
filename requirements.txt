@@ -2,3 +2,4 @@ pyrogram==2.0.55
 dnspython
 tgcrypto
 motor
+aiohttp
