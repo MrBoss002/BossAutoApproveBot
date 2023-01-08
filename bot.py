@@ -115,8 +115,4 @@ async def broadcast(c, m):
     await sts.edit(f'**BroadCast Completed:**\n\nTotal: {total}\nSuccess: {success}\nFailed: {failed}')
 
 if __name__ == '__main__':
-    web_app = web.AppRunner(await web_server())
-    await web_app.setup()
-    bind_address = "0.0.0.0"
-    await web.TCPSite(web_app, bind_address, PORT).start()
     app.run()
