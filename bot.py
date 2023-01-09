@@ -16,11 +16,6 @@ app = Client(
     api_id=evn.get("API_ID"),
     api_hash=evn.get("API_HASH")
 )
-web_app = web.AppRunner(await web_server())
-await web_app.setup()
-bind_address = "0.0.0.0"
-await web.TCPSite(web_app, bind_address, PORT).start()
-app.db = Database()
 
 
 @app.on_chat_join_request(filters.group | filters.channel)
