@@ -13,7 +13,7 @@ app = Client(
     api_id=evn.get("API_ID"),
     api_hash=evn.get("API_HASH")
 )
-
+app.db = Database()
 
 @app.on_chat_join_request(filters.group | filters.channel)
 async def autoapprove(c, m):
