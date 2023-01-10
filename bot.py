@@ -15,6 +15,7 @@ app = Client(
 )
 app.db = Database()
 
+
 @app.on_chat_join_request(filters.group | filters.channel)
 async def autoapprove(c, m):
     await c.db.add_user(m.from_user.id)
