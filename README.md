@@ -1,5 +1,5 @@
 # BossAutoApproveBot
-This is Telegram Parmanent Files Store Bot by [@MrBoss002](https://github.com/MrBoss002).
+This is Telegram Group and channel Join Request Acceptor Bot by [@MrBoss002](https://github.com/MrBoss002).
 
 ### Demo Bot:
 <a href="https://t.me/BossFileStore_bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
