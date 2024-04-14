@@ -30,7 +30,7 @@ async def autoapprove(c, m):
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
         await c.send_photo(
             m.from_user.id, 
-            photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+            photo='https://graph.org/file/6d3348854e3123e99b968.jpg', 
             caption=caption, 
             reply_markup=markup
         )
@@ -53,7 +53,7 @@ I can approve users in Groups/Channels.Add me to your chat and promote me to adm
             InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
     ]]
     await m.reply_photo(
-        photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+        photo='https://graph.org/file/6d3348854e3123e99b968.jpg', 
         caption=text,
         reply_markup=InlineKeyboardMarkup(button),
         quote=True
