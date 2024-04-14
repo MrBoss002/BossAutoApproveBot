@@ -4,6 +4,7 @@ This is Telegram Group and channel Join Request Acceptor Bot by [@MrBoss002](htt
 ### Demo Bot:
 <a href="https://t.me/BossFileStore_bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
+### Deploy:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBoss002/BossAutoApproveBot)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/o75p9_)
