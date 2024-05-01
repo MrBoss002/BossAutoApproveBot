@@ -22,12 +22,13 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('🌐 Support 🌐', url='https://t.me/mallu_hub_official')
+            InlineKeyboardButton('🍿Movie Group🍿', url='https://t.me/mallu_hub_movie_request')
             ],[
-            InlineKeyboardButton('♥️ Update Channel ♥️', url='https://t.me/Mallu_Hub_TG')
+            InlineKeyboardButton('🤑Money Earning🤑', url='https://t.me/moneyearningtricks_4u')
         ]]
         markup = InlineKeyboardMarkup(button)
-        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was /n⚠️ From Admin Panel - Dont Block Me ⚠️'
+        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was Approved!. 
+        ⚠️ From Admin Panel - Dont Block Me ⚠️. /start Meeh♥'
         await c.send_photo(
             m.from_user.id, 
             photo='http://graph.org/file/3afdaf388e7f8c22a7650.jpg', 
@@ -48,9 +49,9 @@ async def start(c, m):
 I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
     button = [[
-            InlineKeyboardButton('💎JOIN GROUP✅️', url='https://t.me/mallu_hub_official')
+            InlineKeyboardButton('🌐SUPPORT GROUP🌐', url='https://t.me/mallu_hub_official')
             ],[
-            InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
+            InlineKeyboardButton('📣MY UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
     ]]
     await m.reply_photo(
         photo='https://graph.org/file/6d3348854e3123e99b968.jpg', 
