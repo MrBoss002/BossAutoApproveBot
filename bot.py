@@ -27,7 +27,7 @@ async def autoapprove(c, m):
             InlineKeyboardButton('🤑Money Earning🤑', url='https://t.me/moneyearningtricks_4u')
         ]]
         markup = InlineKeyboardMarkup(button)
-        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was Approved!\n⚠️ From Admin Panel 〰️ Dont Block Me ⚠️ /start Meeh♥.'
+        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was Approved!\n⚠️ From Admin Panel Dont Block Me ⚠️\nYou Can /start Meeh♥.'
         await c.send_photo(
             m.from_user.id, 
             photo='http://graph.org/file/3afdaf388e7f8c22a7650.jpg', 
@@ -44,9 +44,9 @@ async def autoapprove(c, m):
 
 @app.on_message(filters.command('start') & filters.private & filters.incoming)
 async def start(c, m):
-    text = f'''Hello {m.from_user.mention()} 👋
-I'm an auto approve Admin Join Requests Bot.
-I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
+    text = f'''__**Hello {m.from_user.mention()} 👋**__
+**🧸I'm an auto approve Admin Join Requests Bot🪄.**\n\n
+**🔐I can approve users in Groups/Channels📎. Add me to your chat and promote me to admin with add members permission♥️.**'''
     button = [[
             InlineKeyboardButton('♥️ADD ME TO YOUR CHANNEL♥️', url='https://t.me/BossRequestacceptor_bot?startchannel=new&admin=post_messages+delete_messages+edit_messages+pin_messages+change_info+invite_users+promote_members')
             ],[
