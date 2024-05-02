@@ -52,7 +52,11 @@ I can approve users in Groups/Channels.Add me to your chat and promote me to adm
             InlineKeyboardButton('🌐SUPPORT GROUP🌐', url='https://t.me/mallu_hub_official')
             ],[
             InlineKeyboardButton('📣MY UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
-    ]]
+    ]
+              [
+          InlineKeyboardButton('🌐SUPPORT🌐', url='https://t.me/mallu_hub_official'),
+          InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
+             ]
     await m.reply_photo(
         photo='https://graph.org/file/6d3348854e3123e99b968.jpg', 
         caption=text,
