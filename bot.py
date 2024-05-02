@@ -49,14 +49,15 @@ async def start(c, m):
 I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
     button = [[
-            InlineKeyboardButton('🌐SUPPORT GROUP🌐', url='https://t.me/mallu_hub_official')
-            ],[
-            InlineKeyboardButton('📣MY UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
-    ]
+            InlineKeyboardButton('♥️ADD ME TO YOUR CHANNEL♥️', url='https://t.me/BossRequestacceptor_bot?startchannel=new&admin=post_messages+delete_messages+edit_messages+pin_messages+change_info+invite_users+promote_members')
+            ],
+            InlineKeyboardButton('♦️ADD ME TO YOUR GROUP♦️', url='http://t.me/BossRequestacceptor_bot?startgroup=true')
               [
-          InlineKeyboardButton('🌐SUPPORT🌐', url='https://t.me/mallu_hub_official'),
-          InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
+            InlineKeyboardButton('🌐SUPPORT🌐', url='https://t.me/mallu_hub_official'),
+            InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/Mallu_Hub_TG')
              ]
+    
+    )
     await m.reply_photo(
         photo='https://graph.org/file/6d3348854e3123e99b968.jpg', 
         caption=text,
