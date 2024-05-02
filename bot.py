@@ -27,8 +27,7 @@ async def autoapprove(c, m):
             InlineKeyboardButton('🤑Money Earning🤑', url='https://t.me/moneyearningtricks_4u')
         ]]
         markup = InlineKeyboardMarkup(button)
-        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was Approved!. 
-        ⚠️ From Admin Panel - Dont Block Me ⚠️. /start Meeh♥'
+        caption = f'👋🏻 Hello {m.from_user.mention()}\nYour Request To Join {m.chat.title} Was Approved!\n⚠️ From Admin Panel 〰️ Dont Block Me ⚠️ /start Meeh♥.'
         await c.send_photo(
             m.from_user.id, 
             photo='http://graph.org/file/3afdaf388e7f8c22a7650.jpg', 
